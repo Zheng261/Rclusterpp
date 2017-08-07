@@ -1,4 +1,3 @@
-
 # Using clang 4, which has openMP support
 CC = /usr/local/clang4/bin/clang
 CXX = /usr/local/clang4/bin/clang++
