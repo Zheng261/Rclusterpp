@@ -1,5 +1,4 @@
-PKG_CXXFLAGS=-I../inst/include $(SHLIB_OPENMP_CXXFLAGS)
-PKG_LIBS=`$(R_HOME)/bin/Rscript -e "Rcpp:::LdFlags()"` $(SHLIB_OPENMP_CXXFLAGS)
+
 # Using clang 4, which has openMP support
 CC = /usr/local/clang4/bin/clang
 CXX = /usr/local/clang4/bin/clang++
